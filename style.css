@@ -1,0 +1,23 @@
+body, h1,h2,h3{
+    font-family: 'TT Lakes', serif;
+}
+
+html {
+    background-color: #F8F8F8;
+}
+.header__title{
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: "TT Lakes";
+    src: url("TTLakes-Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
