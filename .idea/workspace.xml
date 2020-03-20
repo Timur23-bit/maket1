@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1120.css" beforeDir="false" afterPath="$PROJECT_DIR$/1120.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/320.css" beforeDir="false" afterPath="$PROJECT_DIR$/320.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/769.css" beforeDir="false" afterPath="$PROJECT_DIR$/769.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584471091631</updated>
-      <workItem from="1584471092939" duration="35507000" />
+      <workItem from="1584471092939" duration="35847000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -96,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584710132845</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="bpvt">
+      <created>1584710686747</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584710686747</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,16 +112,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал структуру заголовка" />
     <MESSAGE value="вариант кнопок в меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="вариант кнопок в меню" />
+    <MESSAGE value="bpvt" />
+    <option name="LAST_COMMIT_MESSAGE" value="bpvt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Inspections" timestamp="1584659888199">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="182" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584659888199" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1584710131399">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1584710685690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584710131399" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584710685690" />
   </component>
 </project>
