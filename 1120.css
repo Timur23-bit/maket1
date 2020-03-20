@@ -1,0 +1,150 @@
+html{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'TT Lakes', serif;
+    font-size: 14px;
+    margin:0;
+    padding:0;
+}
+
+html {
+    background-color: #F8F8F8;
+}
+.header__logo{
+    display:none;
+}
+.header__title {
+    font-size: 14px;
+    line-height: 40px;
+    box-sizing: border-box;
+    border-left: 4px solid #41F6D7;
+    padding-left: 16px;
+    margin: 40px 0;
+}
+
+.logo-ico {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 12%;
+    width: 320px;
+}
+
+.logo-ico_right {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-ico_left {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-ico_burg:hover, .logo-ico_check:hover, .logo-ico_repair:hover {
+    box-shadow: 0 0 3px 1px #FF3E79;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.logo-ico_line1, .logo-ico_call, .logo-ico_profile, .logo-ico_chat {
+    display: none;
+}
+
+.menuWrapper {
+    overflow: hidden;
+    width: 330px;
+    margin-left: 20px;
+    background: right url("logo/fade copy.svg") no-repeat;
+    z-index: -1;
+}
+
+.header__menu {
+    width: 330px;
+    overflow-x: scroll;
+    margin-bottom: -30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header__menu-container {
+    display: flex;
+    width: 1100px;
+    height: 40px;
+
+
+}
+
+.header__menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    position: relative;
+    font-family: 'TT Lakes', serif;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    text-align: center;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.device {
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+}
+
+a:link {
+    color: #7E7E82;
+    text-decoration: none;
+}
+
+.header__menu-btn:hover {
+    background: #FFFFFF;
+    border: 2px solid #B8FFEC;
+    border-radius: 6px;
+
+}
+
+.brend, .adres {
+    display: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    width:320px;
+}
+
+.main__general-content {
+    width: 320px;
+}
+
+.main__general-text p:nth-of-type(2) {
+    display: none;
+}
+
+.main__general-img{
+    height: 160px;
+    width: 320px;
+}
+
+.read {
+    margin-right: 25px;
+    margin-left: 25px;
+}

@@ -151,7 +151,7 @@ a:link{
     font-style: normal;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+                            @media screen and (min-width: 320px) and (max-width: 768px) {
     html{
         margin:0;
         padding:0;
@@ -293,7 +293,7 @@ a:link{
         display: none;
     }
 
-    .main__general-img{
+    .img{
         height: 160px;
         width: 320px;
     }
@@ -303,7 +303,7 @@ a:link{
         margin-left: 25px;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1119px) {
+                                    @media screen and (min-width: 769px) and (max-width: 1119px) {
     html {
         margin: 0;
         padding: 0;
