@@ -24,14 +24,40 @@ html {
 .logo-ico{
     display: none;
 }
-
+.header__repair{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+}
+.header__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+}
+.img-check{
+    margin-left: 5px;
+}
+.img-repair{
+    margin-left: 5px;
+}
+.header__request{
+text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header__menu {
     width: 1096px;
     padding: 0 10px;
     overflow-x: scroll;
     margin-bottom: -30px;
     padding-bottom: 30px;
-
 }
 .menuWrapper {
     overflow: hidden;
@@ -140,6 +166,9 @@ a:link{
 
     html {
         background-color: #F8F8F8;
+    }
+    .header__logo{
+        display:none;
     }
     .header__title {
         font-size: 14px;
@@ -289,7 +318,9 @@ a:link{
     html {
         background-color: #F8F8F8;
     }
-
+    .header__logo{
+        display:none;
+    }
     .header__title {
         font-size: 14px;
         line-height: 40px;
