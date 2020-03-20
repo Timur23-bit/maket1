@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="вариант кнопок в меню" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ZGgxXbp33Q1EDpLmwUfyudJW5C" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="" />
+      <created>1584471091631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584471091631</updated>
+      <workItem from="1584471092939" duration="16530000" />
+    </task>
+    <task id="LOCAL-00001" summary="Создал структуру заголовка">
+      <created>1584661348473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584661348473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="вариант кнопок в меню">
+      <created>1584666246935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584666246936</updated>
+    </task>
+    <task id="LOCAL-00003" summary="вариант кнопок в меню">
+      <created>1584672897221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584672897221</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создал структуру заголовка" />
+    <MESSAGE value="вариант кнопок в меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="вариант кнопок в меню" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="182" key="#Inspections" timestamp="1584659888199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="182" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1584659888199" />
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1584673125642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584673125642" />
+  </component>
+</project>
