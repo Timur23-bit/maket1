@@ -1,3 +1,4 @@
+
 html{
     margin:0;
     padding:0;
@@ -19,42 +20,76 @@ html {
     margin: 40px 0;
 }
 .logo-ico{
-
     display: flex;
     padding: 20px;
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
     height: 12%;
-    width: 100%;
+    width: 320px;
 }
+.logo-ico_right{
+    display: flex;
+    width:50%;
+    justify-content: space-around;
+}
+.logo-ico_left{
+    display: flex;
+    width:50%;
+    justify-content: space-between;
+}
+
 .logo-ico_burg:hover,.logo-ico_check:hover,.logo-ico_repair:hover{
     box-shadow: 0 0 3px 1px #FF3E79;
     border-radius: 50%;
     height:40px;
     width: 40px;
 }
+.logo-ico_line1, .logo-ico_call,.logo-ico_profile,.logo-ico_chat{
+    display: none;
+}
+
+.menuWrapper {
+    overflow: hidden;
+    width: 330px;
+    margin-left: 20px;
+    background: right url("logo/fade copy.svg") no-repeat;
+    z-index: -1;
+}
 
 .header__menu{
+    width: 330px;
+    overflow-x: scroll;
+    margin-bottom: -30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header__menu-container{
     display: flex;
-    width: 1920px;
+    width: 1100px;
     height: 40px;
-    margin: 40px 0;
+
+
 }
 .header__menu-btn{
-    display: block;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
     width: 250px;
     height: 40px;
-    padding-bottom: 50px;
+    position: relative;
     font-family: 'TT Lakes', serif;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 14px;
     letter-spacing: -0.2px;
     color: #7E7E82;
     text-align: center;
     box-sizing: border-box;
+    z-index: -1;
 }
-.header__menu-btn:nth-of-type(1){
+
+.device{
     background: #FFFFFF;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
@@ -68,6 +103,11 @@ a:link{
     background: #FFFFFF;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
+
+}
+
+.brend, .adres{
+    display: none;
 }
 .main{
     display: flex;
@@ -75,13 +115,17 @@ a:link{
     margin-top:20px;
     margin-left: 10px;
 }
-
+.main__general-content{
+    width: 320px;
+}
+.main__general-text p:nth-of-type(2){
+    display: none;
+}
 .read{
     margin-right: 25px;
     margin-left: 25px;
 }
-
-@font-face {
+    @font-face {
     font-family: "TT Lakes";
     src: url("TTLakes-Medium.ttf");
     font-weight: 400;
