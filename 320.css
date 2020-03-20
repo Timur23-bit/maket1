@@ -35,7 +35,6 @@ html {
 }
 .menuWrapper {
     overflow: hidden;
-
 }
 
 .header__menu-container{
@@ -249,16 +248,14 @@ a:link{
         display: none;
     }
 
+    .main__general-img{
+        height: 160px;
+        width: 320px;
+    }
+
     .read {
         margin-right: 25px;
         margin-left: 25px;
-    }
-
-    @font-face {
-        font-family: "TT Lakes";
-        src: url("TTLakes-Medium.ttf");
-        font-weight: 400;
-        font-style: normal;
     }
 }
 @media screen and (min-width: 769px) and (max-width: 1119px) {
