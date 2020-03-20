@@ -37,9 +37,17 @@ html {
 }
 .img-check{
     margin-left: 5px;
+
 }
 .img-repair{
+
     margin-left: 5px;
+}
+.img-repair:hover,.img-check:hover{
+    box-shadow: 0 0 3px 1px #FF3E79;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
 }
 .header__request{
 text-align: center;
