@@ -4,8 +4,6 @@
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new.css" beforeDir="false" afterPath="$PROJECT_DIR$/new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,7 @@
       <updated>1584471091631</updated>
       <workItem from="1584471092939" duration="74981000" />
       <workItem from="1584883324666" duration="45000" />
-      <workItem from="1585047009659" duration="33899000" />
+      <workItem from="1585047009659" duration="34362000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585154975688</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Правки">
+      <created>1585160010848</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1585160010848</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,9 +264,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584715400372" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585154974708">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585160009840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585154974708" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585160009840" />
   </component>
 </project>

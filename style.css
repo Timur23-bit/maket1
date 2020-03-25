@@ -49,6 +49,9 @@
         border: 1px solid #FF3E79;
         box-sizing: border-box;
     }
+    .header-logo__logo{
+        margin: 0 0 0 9px;
+    }
     .header__left .logo:nth-of-type(2){
         background-color: #FFF;
         border: none;
