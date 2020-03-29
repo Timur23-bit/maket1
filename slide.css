@@ -115,6 +115,9 @@ body{
 .lang-menu li{
     display: inline;
 }
+.active{
+    color:#7E7E82;
+}
 @font-face {
     font-family: "TT Lakes";
     src: url("TTLakes-Medium.ttf");

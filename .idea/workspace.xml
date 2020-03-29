@@ -4,7 +4,7 @@
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/slide.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
       <workItem from="1584471092939" duration="74981000" />
       <workItem from="1584883324666" duration="45000" />
       <workItem from="1585047009659" duration="35183000" />
-      <workItem from="1585384071824" duration="14804000" />
+      <workItem from="1585384071824" duration="15065000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585511633669</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Добавил боковое меню">
+      <created>1585511745388</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1585511745388</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,10 +295,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584715400372" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585511632089">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585511743267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585511632089" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585511743267" />
     <state x="1249" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585511540712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
