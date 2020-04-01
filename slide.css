@@ -10,6 +10,15 @@ html, body{
 body{
     width: 320px;
     background-color: white;
+    min-height: 900px;
+    height: 100vh;
+
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .header{
     display: flex;
@@ -48,7 +57,7 @@ body{
     padding: 0;
 }
 .main__menusl{
-    margin-bottom: 268px;
+    margin-bottom: 0;
 }
 .menusl a{
      display: flex;
@@ -68,17 +77,16 @@ body{
 }
 
 .menusl a:hover .menu__highlight{
-
     transition-duration: 1s;
     opacity: 1;
 }
 
-.menusl li:nth-of-type(1) a{
-    color:#7E7E82;
+.menu__li--active{
+    color: #7E7E82 !important;
     padding-left: 0;
 }
 
-.menusl li:nth-of-type(1) a .menu__highlight{
+.menu__li--active .menu__highlight{
     opacity: 1;
 }
 
@@ -115,9 +123,14 @@ body{
 .lang-menu li{
     display: inline;
 }
-.lang-menu li:nth-of-type(1) a{
-    color:#7E7E82;
+.lang-menu li a{
+    text-decoration: none;
+    color:#1B1C21
 }
+.lang-menu__li--active{
+    color:#7E7E82 !important;
+}
+
 @font-face {
     font-family: "TT Lakes";
     src: url("TTLakes-Medium.ttf");
