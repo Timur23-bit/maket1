@@ -1,0 +1,19 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background: #FF3E79;
+    border-radius: 50%;
+    border: 1px solid #FF3E79;
+    box-sizing: border-box;
+}
+.logo:hover{
+    box-shadow: 0 0 3px 1px #FF3E79;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    transition-duration: 1s;
+    cursor: pointer;
+}

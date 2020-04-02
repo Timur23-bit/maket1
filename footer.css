@@ -1,0 +1,14 @@
+.footer__ico{
+    display: flex;
+    padding-left: 24px;
+    justify-content: flex-start;
+}
+
+.footer__lang{
+    margin-top:40px;
+    padding-bottom: 32px;
+    margin-left: 24px;
+}
+.footer__logo{
+    margin-left: 16px;
+}

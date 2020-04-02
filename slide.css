@@ -20,77 +20,42 @@ body{
     justify-content: space-between;
     height: 100%;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding: 24px;
-    align-items: center;
-}
-.header__ico--left{
-    display: flex;
-    justify-content: space-between;
-    width: 160px;
-    align-items: center;
-}
-.logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 40px;
-    background: #FF3E79;
-    border-radius: 50%;
-    border: 1px solid #FF3E79;
-    box-sizing: border-box;
-}
-.logo:hover{
-    box-shadow: 0 0 3px 1px #FF3E79;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    transition-duration: 1s;
-    cursor: pointer;
-}
-
-.menusl{
+.slide__menu{
     list-style: none;
     padding: 0;
 }
-.main__menusl{
-    margin-bottom: 0;
-}
-.menusl a{
+
+.slide__link{
      display: flex;
-     padding:16px 0px;
+     padding:16px 0;
      text-decoration: none;
     height: 32px;
      color:#1B1C21;
-
     box-sizing: content-box;
     align-items: center;
  }
-.menusl a:hover{
+.slide__link:hover{
     color:#7E7E82;
     padding-left: 0;
     transition-duration: 1s;
     opacity: 1;
 }
 
-.menusl a:hover .menu__highlight{
+.slide__link:hover .slide__highlight{
     transition-duration: 1s;
     opacity: 1;
 }
 
-.menu__li--active{
+.slide__link--active{
     color: #7E7E82 !important;
     padding-left: 0;
 }
 
-.menu__li--active .menu__highlight{
+.slide__link--active .slide__highlight{
     opacity: 1;
 }
 
-.menu__highlight{
+.slide__highlight{
     width: 4px;
     height: 32px;
     background-color: #41F6D7;
@@ -98,37 +63,6 @@ body{
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
     opacity:0;
-}
-.footer__ico{
-    display: flex;
-    padding-left: 24px;
-    width: 152px;
-    justify-content: space-between;
-}
-.footer__email{
-    padding-left: 24px;
-}
-.footer__phone{
-    padding-left: 24px;
-}
-.footer__lang{
-    margin-top:40px;
-    padding-bottom: 32px;
-    padding-left: 24px;
-}
-.lang-menu{
-    list-style: none;
-    padding:0;
-}
-.lang-menu li{
-    display: inline;
-}
-.lang-menu li a{
-    text-decoration: none;
-    color:#1B1C21
-}
-.lang-menu__li--active{
-    color:#7E7E82 !important;
 }
 
 @font-face {

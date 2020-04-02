@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lang-menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/slide.css" afterDir="false" />
@@ -59,7 +64,7 @@
       <workItem from="1584471092939" duration="74981000" />
       <workItem from="1584883324666" duration="45000" />
       <workItem from="1585047009659" duration="35183000" />
-      <workItem from="1585384071824" duration="18005000" />
+      <workItem from="1585384071824" duration="22429000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -285,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585512009132</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Правки">
+      <created>1585738015955</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1585738015955</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,10 +308,11 @@
     <MESSAGE value="вариант кнопок в меню" />
     <MESSAGE value="bpvt" />
     <MESSAGE value="Завершил" />
-    <MESSAGE value="Правки" />
     <MESSAGE value="Добавил боковое меню" />
     <MESSAGE value="Добавил боковое меню&#10;Цвет RU" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил боковое меню&#10;Цвет RU" />
+    <MESSAGE value="Цвет RU" />
+    <MESSAGE value="Правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Правки" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Inspections" timestamp="1584659888199">
@@ -310,10 +323,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584715400372" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585512008041">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585810786204">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585512008041" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585810786204" />
     <state x="1249" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585511540712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
