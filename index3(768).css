@@ -1,0 +1,117 @@
+@media screen and (min-width: 768px) and (max-width: 1119px){
+  html, body {
+    padding: 0;
+    margin: 0;
+    font-family: "TT Lakes", serif;
+  }
+
+  body{
+    min-width: 768px;
+    max-width: 1119px;
+    background-color: #F8F8F8;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+  }
+
+  .brands__header{
+    padding: 16px 24px;
+    text-transform: uppercase;
+    color: #7E7E82;
+    box-sizing: border-box;
+    border-top: 1px solid #D9FFF5;
+    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  }
+
+  .brands__menu{
+    background-color: #F8F8F8;
+  }
+
+  .brands__list{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 24px 0 8px 0;
+  }
+  .brands__show-all{
+    display: flex;
+  }
+  .swiper-slide__card{
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    align-items: center;
+    width: 224px !important;
+    height: 72px !important;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-left:  24px !important;
+    margin-bottom: 16px;
+  }
+  .next{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF3E79;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper-container{
+    display:none;
+    position: relative;
+    height: 130px;
+  }
+
+  .show-all{
+    display: flex;
+    padding-left: 24px;
+    padding-bottom: 34px;
+  }
+  .show-all__text{
+    margin-left: 17px;
+  }
+  .show-all__link{
+    text-decoration: none;
+    color: #1B1C21;
+  }
+  .close-show-all{
+    display: flex;
+    padding-left: 24px;
+    padding-bottom: 34px;
+  }
+
+  .hidden__img{
+    transform: rotate(180deg);
+  }
+
+  .swiper-slide__card:nth-of-type(11),
+  .swiper-slide__card:nth-of-type(10),
+  .swiper-slide__card:nth-of-type(9),
+  .swiper-slide__card:nth-of-type(8),
+  .swiper-slide__card:nth-of-type(7){
+    display: none;
+    transition-duration: 1s;
+  }
+  .--hidden{
+    display: none;
+  }
+  .--show{
+    display: flex!important;
+  }
+  @media screen and (min-width: 1000px) and (max-width: 1119px){
+    .swiper-slide__card:nth-of-type(8),
+    .swiper-slide__card:nth-of-type(7){
+      display: flex!important;
+    }
+  }
+  @font-face {
+    font-family: "TT Lakes";
+    src: url("TTLakes-Medium.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +73,7 @@
       <workItem from="1586393003529" duration="87000" />
       <workItem from="1586393101608" duration="20000" />
       <workItem from="1586393131890" duration="91000" />
-      <workItem from="1586393234162" duration="27539000" />
+      <workItem from="1586393234162" duration="27793000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -305,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585738015955</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Добавил макет блока 1.5">
+      <created>1586437635510</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1586437635510</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +328,8 @@
     <MESSAGE value="Добавил боковое меню&#10;Цвет RU" />
     <MESSAGE value="Цвет RU" />
     <MESSAGE value="Правки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Правки" />
+    <MESSAGE value="Добавил макет блока 1.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил макет блока 1.5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Inspections" timestamp="1584659888199">
@@ -331,10 +340,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584715400372" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1585810786204">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1586437634228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585810786204" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586437634228" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586429210876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
