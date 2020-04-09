@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lang-menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/slide.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +13,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -41,12 +35,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\мвидео\Documents\GitHub\maket1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.showall.js">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/maket1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="showall.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/showall.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.showall.js" />
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
@@ -65,6 +68,11 @@
       <workItem from="1584883324666" duration="45000" />
       <workItem from="1585047009659" duration="35183000" />
       <workItem from="1585384071824" duration="22429000" />
+      <workItem from="1586391098935" duration="515000" />
+      <workItem from="1586393003529" duration="87000" />
+      <workItem from="1586393101608" duration="20000" />
+      <workItem from="1586393131890" duration="91000" />
+      <workItem from="1586393234162" duration="27539000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -327,9 +335,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585810786204" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586429210876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586429210876" />
     <state x="1249" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585511540712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1249" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1585511540712" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1586429197907">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586429197907" />
   </component>
 </project>
