@@ -4,6 +4,11 @@
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index1.html" beforeDir="false" afterPath="$PROJECT_DIR$/index1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3(1120).css" beforeDir="false" afterPath="$PROJECT_DIR$/index3(1120).css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3(768).css" beforeDir="false" afterPath="$PROJECT_DIR$/index3(768).css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3.css" beforeDir="false" afterPath="$PROJECT_DIR$/index3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/showall.js" beforeDir="false" afterPath="$PROJECT_DIR$/showall.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +19,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,7 +78,9 @@
       <workItem from="1586393003529" duration="87000" />
       <workItem from="1586393101608" duration="20000" />
       <workItem from="1586393131890" duration="91000" />
-      <workItem from="1586393234162" duration="27793000" />
+      <workItem from="1586393234162" duration="28516000" />
+      <workItem from="1586600847485" duration="8972000" />
+      <workItem from="1586623722145" duration="10564000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -313,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586437635510</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Добавил макет блока 1.5">
+      <created>1586438003384</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1586438003384</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,10 +354,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584715400372" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1586437634228">
+    <state x="934" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586632774770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586437634228" />
+    <state x="934" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586632774770" />
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1586437996204">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586437996204" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586429210876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -356,5 +374,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586429197907" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586601388999">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586601388999" />
   </component>
 </project>
