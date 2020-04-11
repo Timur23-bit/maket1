@@ -74,7 +74,7 @@
       <workItem from="1586393131890" duration="91000" />
       <workItem from="1586393234162" duration="28516000" />
       <workItem from="1586600847485" duration="8972000" />
-      <workItem from="1586623722145" duration="11558000" />
+      <workItem from="1586623722145" duration="12036000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -328,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586634391323</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Добавил макет блока 1.5">
+      <created>1586635573725</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1586635573725</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,10 +366,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="934" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586632774770" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1586634389980">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1586635572160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586634389980" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586635572160" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586429210876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
