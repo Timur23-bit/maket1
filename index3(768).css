@@ -40,7 +40,7 @@
     padding: 16px;
     justify-content: space-between;
     align-items: center;
-    width: 240px !important;
+    width: 224px !important;
     height: 72px !important;
     background: #FFFFFF;
     border: 1px solid #EAEAEA;
@@ -133,10 +133,7 @@
     display: none;
     transition-duration: 1s;
   }
-  .swiper-pagination{
-    display: none;
-    filter: grayscale(100%);
-  }
+
   @font-face {
     font-family: "TT Lakes";
     src: url("TTLakes-Medium.ttf");

@@ -112,10 +112,7 @@
         display:none;
         transition-duration: 1s;
     }
-    .swiper-pagination{
-        display: none;
-        filter: grayscale(100%);
-    }
+
     @font-face {
         font-family: "TT Lakes";
         src: url("TTLakes-Medium.ttf");
