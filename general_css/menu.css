@@ -1,0 +1,121 @@
+@media screen and (min-width: 1120px) {
+    .menu {
+        height: 90px;
+        min-width: 1120px;
+        overflow: hidden;
+    }
+
+    .menu__container {
+        display: flex;
+        width: 1120px;
+        height: 40px;
+        grid-row: 1;
+        grid-column: 1;
+        flex-wrap: wrap;
+
+    }
+
+    .menu--hidden {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        right: 1px;
+        height: 100px;
+        min-width: 1120px;
+
+    }
+
+    .menu__shadow--right {
+        position: absolute;
+        right: 0;
+        width: 20px;
+        height: 60px;
+        z-index: 2;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .menu__button{
+        margin:0 0 0 5px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1119px){
+    .menu {
+        height:50px;
+        min-width:769px;
+        max-width:1119px;
+        overflow: hidden;
+    }
+    .menu__container {
+        display: flex;
+        width: 1400px;
+        height: 40px;
+        grid-row: 1;
+        grid-column: 1;
+
+    }
+    .menu--hidden {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        right: 1px;
+        height: 100px;
+        min-width: 769px;
+        max-width: 1119px;
+        overflow-x: scroll;
+    }
+
+    .menu__shadow--right{
+        position: absolute;
+        right: 0;
+        width: 20px;
+        height: 60px;
+        z-index: 2;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .menu__button{
+        margin:0 0 0 5px;
+    }
+}
+@media screen and (min-width: 319px) and (max-width: 768px){
+    .menu {
+        height:50px;
+        min-width:320px;
+        max-width:768px;
+        overflow: hidden;
+    }
+    .menu__container {
+        display: flex;
+        width: 1400px;
+        height: 40px;
+        grid-row: 1;
+        grid-column: 1;
+
+    }
+    .menu--hidden {
+        position: relative;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        right: 1px;
+        height: 100px;
+        min-width: 320px;
+        max-width: 768px;
+        overflow-x: scroll;
+    }
+
+    .menu__shadow--right{
+        position: absolute;
+        right: 0;
+        width: 20px;
+        height: 60px;
+        z-index: 2;
+        grid-row: 1;
+        grid-column: 1;
+    }
+    .menu__button{
+        margin:0 0 0 5px;
+    }
+}

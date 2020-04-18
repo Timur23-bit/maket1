@@ -1,0 +1,7 @@
+
+.brands-container__fade{
+    margin-top: 8px;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}

@@ -1,0 +1,27 @@
+@media screen and (min-width: 1120px) {
+    .header-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-main__title {
+        display: flex;
+        align-items: center;
+        margin: 42px 0 8px 0;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1119px){
+    .header-main__title {
+            display: flex;
+            align-items: center;
+            margin: 24px 0 24px 0;
+    }
+}
+@media screen and (min-width: 319px) and (max-width: 768px){
+    .header-main__title{
+        display:flex;
+        align-items: center;
+        margin: 24px 0 24px 0;
+    }
+}

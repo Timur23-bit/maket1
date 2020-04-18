@@ -1,0 +1,23 @@
+@media screen and (min-width: 1120px) {
+    .cps__img {
+        height: 307px;
+        width: 532px;
+        margin: 12px 0 0 0;
+        border-radius: 6px;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 1119px){
+    .cps__img{
+        height: 208px;
+        width: 360px;
+        margin: 45px 40px 40px 48px;
+        border-radius: 6px;
+    }
+}
+@media screen and (min-width: 319px) and (max-width: 768px){
+    .cps-img{
+        height: 176px;
+        width: 320px;
+        align-self: center;
+    }
+}
