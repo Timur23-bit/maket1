@@ -27,6 +27,7 @@
     }
 
     .menu__shadow--right {
+        display: none;
         position: absolute;
         right: 0;
         width: 20px;
@@ -39,7 +40,7 @@
         margin:0 0 0 5px;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1119px){
     .menu {
         height:50px;
         min-width:769px;
@@ -79,7 +80,7 @@
         margin:0 0 0 5px;
     }
 }
-@media screen and (min-width: 319px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 767px){
     .menu {
         height:50px;
         min-width:320px;

@@ -1,21 +1,29 @@
-.header {
+.header-slide {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #FFFFFF;
     padding: 24px;
 }
-.header__right {
+.header-slide__right {
     display: flex;
-    width: 30%;
+
     justify-content: space-around;
     align-items: center;
     margin-left: 50px;
 }
 
-.header__left {
+.header-slide__left {
     display: flex;
-    width: 60%;
+
     justify-content: space-between;
     align-items: center;
+}
+.header-slide__logo{
+    margin-right: 20px;
+}
+@media screen and (min-width: 1120px) {
+    .header-slide__left .logo {
+        display: none!important;
+    }
 }

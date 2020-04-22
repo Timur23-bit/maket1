@@ -9,7 +9,7 @@
         height: 208px;
     }
 }
-@media screen and (min-width: 769px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1119px){
     .main-content__text{
         margin:32px 48px 10px 24px;
     }
@@ -19,7 +19,7 @@
         height: 208px;
     }
 }
-@media screen and (min-width: 319px) and (max-width: 768px){
+@media screen and (min-width: 320px) and (max-width: 767px){
     .main-content__text{
         margin:0 16px 16px 16px;
     }

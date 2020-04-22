@@ -1,0 +1,63 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+    padding-bottom: 40px;
+}
+.form__name{
+    margin-left: 16px;
+    margin-top: 24px;
+}
+
+.form__phone{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.form__email{
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.form__message{
+    margin-left: 16px;
+    margin-top: 16px;
+    padding-top: 12px;
+    resize: none;
+    height: 118px;
+}
+.form__text{
+    padding-left: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7E7E82;
+}
+
+.form__submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FF3E79;
+    border-radius: 30px;
+    width: 120px;
+    height: 32px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    background-color: #FF3E79;
+    align-self: flex-end;
+}
+.form__submit img{
+    margin-left: 10px;
+}
+.form__link{
+    text-decoration: none;
+    color:#FF3E79;
+}
+.--opacity-callback{
+    opacity: 1;
+    transition-duration: 1s;
+    z-index: 3;
+}
+.--opacity-hidden-callback{
+    opacity: 0.1;
+    transition-duration: 1s;
+}

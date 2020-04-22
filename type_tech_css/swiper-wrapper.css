@@ -1,0 +1,20 @@
+.swiper-wrapper{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+    .swiper-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 24px;
+        padding-left: 24px;
+    }
+}
+@media screen and (min-width: 1120px){
+    .swiper-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 24px;
+        padding-left: 32px;
+    }
+}
