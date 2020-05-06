@@ -8,8 +8,9 @@
         height: auto;
         background-color: #FFFFFF;
         border-radius: 6px;
-
+        max-width: 1070px;
         padding-top: 20px;
+        padding-right: 32px;
     }
 }
 @media screen and (min-width: 1120px){
@@ -18,8 +19,8 @@
         height: auto;
         background-color: #FFFFFF;
         border-radius: 6px;
-        width: 1120px;
+        max-width: 1070px;
         padding-left: 16px!important;
-
+        padding-right: 32px;
     }
 }
