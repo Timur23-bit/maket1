@@ -1,4 +1,4 @@
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .header-main {
         display: flex;
         justify-content: space-between;
@@ -11,7 +11,7 @@
         margin: 32px 0 32px 0;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
     .header-main__title {
             display: flex;
             align-items: center;

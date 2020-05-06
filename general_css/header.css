@@ -5,7 +5,6 @@
         align-items: center;
         background-color: #FFFFFF;
         padding: 24px;
-        width: 100%;
         border-bottom: 1px solid #41F6D7;
     }
 
@@ -30,7 +29,7 @@
         display: none;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1119px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .header-logo {
         display: none;
     }
@@ -40,7 +39,6 @@
         justify-content: space-around;
         align-items: center;
         background-color: #FFFFFF;
-        width: 100%;
         border-bottom: 1px solid #41F6D7;
         padding: 24px;
     }
@@ -65,7 +63,7 @@
         border: none;
     }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .header {
         display: none;
         justify-content: space-around;

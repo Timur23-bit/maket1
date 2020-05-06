@@ -1,4 +1,4 @@
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .btn {
         display: flex;
         align-items: center;
@@ -27,8 +27,13 @@
         border-radius: 6px;
 
     }
+    .btn--active{
+        background: #FFFFFF;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+    }
 }
-@media screen and (min-width: 767px) and (max-width: 1119px){
+@media screen and (min-width: 767px) and (max-width: 1439px){
     .btn {
         display: flex;
         align-items: center;
@@ -51,6 +56,11 @@
         display: none;
     }
     .btn:hover {
+        background: #FFFFFF;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+    }
+    .btn--active{
         background: #FFFFFF;
         border: 2px solid #B8FFEC;
         border-radius: 6px;
@@ -84,6 +94,11 @@
     }
 
     .btn:hover {
+        background: #FFFFFF;
+        border: 2px solid #B8FFEC;
+        border-radius: 6px;
+    }
+    .btn--active{
         background: #FFFFFF;
         border: 2px solid #B8FFEC;
         border-radius: 6px;

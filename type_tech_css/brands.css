@@ -1,18 +1,14 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    font-family: "TT Lakes", serif;
-}
-
-body{
+.device{
+    display: none;
     min-width: 320px;
     max-width: 767px;
     background-color: #F8F8F8;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
+    font-family: "TT Lakes", serif;
 }
-.brands__header{
+.device__header{
     padding: 16px 16px 16px 16px;
     text-transform: uppercase;
     color: #7E7E82;
@@ -21,13 +17,13 @@ body{
     background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
 }
 
-.brands__menu{
+.device__menu{
     background-color: #F8F8F8;
 }
-.brands__show-all{
+.device__show-all{
     display: none;
 }
-.brands__card{
+.device__card{
     display: flex;
     padding: 16px;
     flex-direction: column;
@@ -41,9 +37,14 @@ body{
     border-radius: 6px;
     margin-right: 16px !important;
 }
-.brands__card:nth-of-type(11),
-.brands__card:nth-of-type(10) {
+.device__card:nth-of-type(11),
+.device__card:nth-of-type(10) {
     display: none;
+    transition-duration: 1s;
+}
+.brands--visible {
+    display: block;
+    opacity: 1;
     transition-duration: 1s;
 }
 @font-face {
@@ -53,22 +54,18 @@ body{
     font-style: normal;
 }
 @media screen and (min-width: 768px) and (max-width: 1119px) {
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
-
-    body {
+    .device {
+        display: none;
         min-width: 768px;
         max-width: 1119px;
         background-color: #F8F8F8;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
+        font-family: "TT Lakes", serif;
     }
 
-    .brands__header {
+    .device__header {
         padding: 16px 24px 16px 24px;
         text-transform: uppercase;
         color: #7E7E82;
@@ -77,11 +74,11 @@ body{
         background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
     }
 
-    .brands__menu {
+    .device__menu {
         background-color: #F8F8F8;
     }
 
-    .brands__card {
+    .device__card {
         display: flex;
         padding: 16px;
         flex-direction: column;
@@ -96,43 +93,44 @@ body{
         margin: 0 24px 16px 0 !important;
     }
 
-    .brands__show-all {
+    .device__show-all {
         display: flex;
     }
 
-    .brands__card:nth-of-type(7),
-    .brands__card:nth-of-type(6),
-    .brands__card:nth-of-type(5),
-    .brands__card:nth-of-type(4){
+    .device__card:nth-of-type(7),
+    .device__card:nth-of-type(6),
+    .device__card:nth-of-type(5),
+    .device__card:nth-of-type(4){
         display: none;
         transition-duration: 1s;
     }
 
     @media screen and (min-width: 1000px) and (max-width: 1119px) {
 
-        .brands__card:nth-of-type(4)
+        .device__card:nth-of-type(4)
         {
             display: flex;
             transition-duration: 1s;
         }
     }
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
+    }
 }
 @media screen and (min-width: 1120px){
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
 
-    body{
+    .device{
         min-width: 1120px;
         background-color: #F8F8F8;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
-        margin: 0 auto;
+        font-family: "TT Lakes", serif;
+        display: none;
     }
-    .brands__header{
+    .device__header{
         padding: 16px 32px 16px 32px;
         text-transform: uppercase;
         color: #7E7E82;
@@ -141,10 +139,10 @@ body{
         background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
     }
 
-    .brands__menu {
+    .device__menu {
         background-color: #F8F8F8;
     }
-    .brands__card{
+    .device__card{
         display: flex;
         padding: 16px;
         flex-direction: column;
@@ -158,13 +156,18 @@ body{
         border-radius: 6px;
         margin:0 32px 16px 0!important;
     }
-    .brands__show-all{
+    .device__show-all{
         display: flex;
     }
-    .brands__card:nth-of-type(7),
-    .brands__card:nth-of-type(6),
-    .brands__card:nth-of-type(5) {
+    .device__card:nth-of-type(7),
+    .device__card:nth-of-type(6),
+    .device__card:nth-of-type(5) {
         display: none;
+        transition-duration: 1s;
+    }
+    .brands--visible {
+        display: block;
+        opacity: 1;
         transition-duration: 1s;
     }
 }

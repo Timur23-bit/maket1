@@ -1,26 +1,25 @@
-.swiper-container{
+.price__swiper-container{
     position: relative;
     height: 260px;
 }
 @media screen and (min-width: 768px) and (max-width: 1119px) {
-    .swiper-container{
+    .price__swiper-container{
         position: relative;
         height: auto;
         background-color: #FFFFFF;
         border-radius: 6px;
         width: 100%;
-        padding-right: 32px!important;
         padding-top: 20px;
     }
 }
 @media screen and (min-width: 1120px){
-    .swiper-container{
+    .price__swiper-container{
         position: relative;
         height: auto;
         background-color: #FFFFFF;
         border-radius: 6px;
-        width: 100%;
-        padding-right: 32px!important;
+        width: 1070px;
         padding-left: 16px!important;
+
     }
 }

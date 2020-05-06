@@ -1,4 +1,4 @@
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .main-content__text {
         margin: 0 36px 10px 34px;
     }
@@ -8,8 +8,14 @@
         width: 720px;
         height: 208px;
     }
+    .main-content--hidden{
+        opacity: 0;
+        transition-duration: 1s;
+        display:none;
+    }
+
 }
-@media screen and (min-width: 768px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
     .main-content__text{
         margin:32px 48px 10px 24px;
     }
@@ -18,9 +24,19 @@
         width: 720px;
         height: 208px;
     }
+    .main-content--hidden{
+        opacity: 0;
+        transition-duration: 1s;
+        display:none;
+    }
 }
 @media screen and (min-width: 320px) and (max-width: 767px){
     .main-content__text{
         margin:0 16px 16px 16px;
+    }
+    .main-content--hidden{
+        opacity: 0;
+        transition-duration: 1s;
+        display:none;
     }
 }

@@ -22,7 +22,7 @@
 .header-slide__logo{
     margin-right: 20px;
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .header-slide__left .logo {
         display: none!important;
     }

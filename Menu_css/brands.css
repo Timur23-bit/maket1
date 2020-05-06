@@ -1,49 +1,55 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    font-family: "TT Lakes", serif;
-}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .brands {
+        display: none;
+        background-color: #F8F8F8;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        font-family: "TT Lakes", serif;
+    }
 
-body{
-    min-width: 320px;
-    max-width: 767px;
-    background-color: #F8F8F8;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.2px;
-}
-.brands__header{
-    padding: 16px 16px 16px 16px;
-    text-transform: uppercase;
-    color: #7E7E82;
-    box-sizing: border-box;
-    border-top: 1px solid #D9FFF5;
-    background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
-}
+    .brands__header {
+        padding: 16px 16px 16px 16px;
+        text-transform: uppercase;
+        color: #7E7E82;
+        box-sizing: border-box;
+        border-top: 1px solid #D9FFF5;
+        background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    }
 
-.brands__menu{
-    background-color: #F8F8F8;
-}
-.brands__show-all{
-    display: none;
-}
-.brands__card{
-    display: flex;
-    padding: 16px;
-    justify-content: space-between;
-    align-items: center;
-    width: 240px !important;
-    height: 72px !important;
-    background: #FFFFFF;
-    border: 1px solid #EAEAEA;
-    box-sizing: border-box;
-    border-radius: 6px;
-    margin-right: 16px !important;
-}
-.brands__card:nth-of-type(11),
-.brands__card:nth-of-type(10) {
-    display: none;
-    transition-duration: 1s;
+    .brands__menu {
+        background-color: #F8F8F8;
+    }
+
+    .brands__show-all {
+        display: none;
+    }
+
+    .brands__card {
+        display: flex;
+        padding: 16px;
+        justify-content: space-between;
+        align-items: center;
+        width: 240px !important;
+        height: 72px !important;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        box-sizing: border-box;
+        border-radius: 6px;
+        margin-right: 16px !important;
+    }
+
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
+    }
+
+    .brands__card:nth-of-type(11),
+    .brands__card:nth-of-type(10) {
+        display: none;
+        transition-duration: 1s;
+    }
 }
 @font-face {
     font-family: "TT Lakes";
@@ -52,19 +58,13 @@ body{
     font-style: normal;
 }
 @media screen and (min-width: 768px) and (max-width: 1119px) {
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
-
-    body {
-        min-width: 768px;
-        max-width: 1119px;
+    .brands {
+        display: none;
         background-color: #F8F8F8;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
+        font-family: "TT Lakes", serif;
     }
 
     .brands__header {
@@ -105,7 +105,11 @@ body{
         display: none;
         transition-duration: 1s;
     }
-
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
+    }
     @media screen and (min-width: 1000px) and (max-width: 1119px) {
         .brands__card:nth-of-type(8),
         .brands__card:nth-of-type(7) {
@@ -115,19 +119,15 @@ body{
     }
 }
 @media screen and (min-width: 1120px){
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
 
-    body{
-        min-width: 1120px;
+    .brands{
+        display: none;
         background-color: #F8F8F8;
+        width: 1120px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
-        margin: 0 auto;
+        font-family: "TT Lakes", serif;
     }
     .brands__header{
         padding: 16px 32px 16px 32px;
@@ -156,6 +156,11 @@ body{
     }
     .brands__show-all{
         display: flex;
+    }
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
     }
     .brands__card:nth-of-type(11),
     .brands__card:nth-of-type(10),

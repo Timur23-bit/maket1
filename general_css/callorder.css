@@ -23,7 +23,7 @@
         align-items: center;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
     .callorder{
         background-color: #FFFFFF;
         width: 440px;
@@ -51,7 +51,7 @@
         left:-72px;
     }
 }
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .callorder{
         background-color: #FFFFFF;
         width: 440px;

@@ -2,3 +2,16 @@
 .swiper-pagination{
     filter: grayscale(100%);
 }
+@media screen and (min-width: 1120px){
+    .swiper-pagination{
+        display: none;
+        filter: grayscale(100%);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1119px) {
+    .swiper-pagination{
+        display: none;
+        filter: grayscale(100%);
+    }
+}

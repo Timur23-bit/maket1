@@ -1,20 +1,14 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
-
-    body {
-        min-width: 320px;
-        max-width: 767px;
+    .price {
+        display: none;
         background-color: #F8F8F8;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
+        font-family: "TT Lakes", serif;
     }
 
-    .brands__header {
+    .price__header {
         padding: 16px 16px 16px 16px;
         text-transform: uppercase;
         color: #7E7E82;
@@ -23,16 +17,16 @@
         background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
     }
 
-    .brands__menu {
+    .price__menu {
         background-color: #F8F8F8;
         padding: 16px 0 0 16px;
     }
 
-    .brands__show-all {
+    .price__show-all {
         display: none;
     }
 
-    .brands__card {
+    .price__card {
         display: flex;
         padding: 0 16px 16px 16px;
         flex-direction: column;
@@ -47,53 +41,58 @@
         margin-right: 14px !important;
         position: relative;
     }
-    .brands__table{
+    .price__table{
         display: none;
     }
-    .brands__title-text {
+    .price__title-text {
         line-height: 16px;
         color: #7E7E82;
         opacity: 0.72;
     }
-    .brands__info{
+    .price__info{
         max-width: 421px;
         font-size: 14px;
         letter-spacing: 0.2px;
     }
-    .brands__card-p{
+    .price__card-p{
         margin-top: 5px;
         font-size: 14px;
         line-height: 18px;
     }
-    .brands__repair-service, .brands__price, .brands__duration{
+    .price__repair-service, .price__price, .price__duration{
         display: flex;
     }
 
-    .brands__show-all{
+    .price__show-all{
         display: flex;
     }
-    .brands__get-com{
+    .price__get-com{
         display: flex;
         align-items: center;
         font-size: 16px;
         box-sizing: border-box;
     }
-    .brands__get-com img{
+    .price__get-com img{
         margin-left: 15px;
     }
-    .brands__footer{
+    .price__footer{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         margin-top: 80px;
     }
-    .brands__footer {
+    .price__footer {
         text-align: center;
     }
-    .footer__info{
+    .price__info{
         margin-bottom: 16px;
         color: #7E7E82;
         opacity: 0.72;
+    }
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
     }
 }
 @font-face {
@@ -104,22 +103,18 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1119px) {
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
-
-    body {
+     .price {
+         display:none;
         min-width: 768px;
         max-width: 1119px;
         background-color: #F8F8F8;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
+        font-family: "TT Lakes", serif;
     }
 
-    .brands__header {
+    .price__header {
         padding: 16px 24px 16px 24px;
         text-transform: uppercase;
         color: #7E7E82;
@@ -128,64 +123,68 @@
         background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
     }
 
-    .brands__table{
+    .price__table{
         display: grid;
-        grid-template-columns: 1fr 20% 20% 10%;
+        grid-template-columns: 1fr 20% 20% 20%;
         padding-left: 16px;
         padding-top: 31px;
         justify-items: start;
         color: #7E7E82;
         padding-bottom: 16px;
+        min-width: 768px;
+        max-width: 1070px;
     }
-    .brands__menu {
+    .price__menu {
         background-color: #F8F8F8;
         padding:0 32px 0 32px;
     }
-    .brands__card{
+    .price__card{
         display: grid;
-        grid-template-columns: 1fr 20% 20% 10%;
+        grid-template-columns: 1fr 20% 20% 20%;
         justify-items: start;
         align-items: center;
         border-bottom: 1px solid #EAEAEA;
         padding: 16px 0 16px 0;
         box-sizing: border-box;
+        min-width: 768px;
+        max-width: 1070px;
     }
-    .brands__card-p{
+    .price__card-p{
         margin-top:0;
         font-size: 14px;
         line-height: 18px;
     }
-    .brands__card:nth-of-type(6){
+    .price__card:nth-of-type(6){
         border-bottom: 1px solid #FFFFFF;
     }
-    .brands__card:nth-of-type(1){
+    .price__card:nth-of-type(1){
         display: none;
     }
-    .brands__info{
+    .price__info{
         max-width: 441px;
         font-size: 14px;
         letter-spacing: 0.2px;
     }
-    .brands__repair-service, .brands__price, .brands__duration{
+    .price__repair-service, .price__price, .price__duration{
         display: flex;
         margin-bottom: 5px
     }
-    .brands__title-text{
+    .price__title-text{
         display: none;
     }
-    .brands__show-all{
+    .price__show-all{
         display: flex;
     }
-    .brands__get-com{
+    .price__get-com{
         display: flex;
         align-items: center;
         font-size: 16px;
         box-sizing: border-box;
     }
-    .brands__get-com img{
+    .price__get-com img{
         margin-left: 15px;
     }
-    .brands__footer{
+    .price__footer{
         display: grid;
         grid-template-columns: 1fr 1fr 30%;
         margin-top: 80px;
@@ -193,28 +192,28 @@
         opacity: 0.72;
     }
 
-    .brands__footer div:nth-of-type(3){
+    .price__footer div:nth-of-type(3){
         text-align: right;
+    }
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
     }
 }
 @media screen and (min-width: 1120px){
-    html, body {
-        padding: 0;
-        margin: 0;
-        font-family: "TT Lakes", serif;
-    }
 
-    body{
+    .price{
+        display: none;
         width: 1120px;
         background-color: #F8F8F8;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
-        margin: 0 auto;
-
+        font-family: "TT Lakes", serif;
     }
 
-    .brands__header{
+    .price__header{
         padding: 16px 0 16px 32px;
         text-transform: uppercase;
         color: #7E7E82;
@@ -222,70 +221,77 @@
         border-top: 1px solid #D9FFF5;
         background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
     }
-    .brands__table{
+    .price__table{
         display: grid;
-        grid-template-columns: 1fr 20% 20% 10%;
-        padding-left: 18px;
+        grid-template-columns: 1fr 20% 20% 20%;
+        padding-left: 32px;
         padding-top: 31px;
         justify-items: start;
         color: #7E7E82;
+        width: 1070px;
         padding-bottom: 16px;
     }
-    .brands__menu {
+    .price__menu {
         background-color: #F8F8F8;
         padding:0 80px 0 32px;
     }
-    .brands__card{
+    .price__card{
         display: grid;
-        grid-template-columns: 1fr 20% 20% 10%;
+        grid-template-columns: 1fr 20% 20% 20%;
         justify-items: start;
         align-items: center;
         border-bottom: 1px solid #EAEAEA;;
         padding: 16px 10px 16px 0;
+        width: 1120px;
     }
-    .brands__card:nth-of-type(6){
+    .price__card:nth-of-type(6){
         border-bottom: 1px solid #FFFFFF;
     }
-    .brands__card:nth-of-type(1){
+    .price__card:nth-of-type(1){
         display: none;
     }
-    .brands__repair-service{
+    .price__repair-service{
         grid-column: 1;
     }
-    .brands__repair-service, .brands__price, .brands__duration{
+    .price__repair-service, .price__price, .price__duration{
         display: flex;
         margin-bottom: 5px
     }
-    .brands__title-text{
+    .price__title-text{
         display: none;
     }
-    .brands__info{
+    .price__info{
         max-width: 441px;
         font-size: 14px;
         letter-spacing: 0.2px;
     }
-    .brands__get-com{
+    .price__get-com{
         display: flex;
         align-items: center;
         font-size: 16px;
         box-sizing: border-box;
     }
-    .brands__get-com img{
+    .price__get-com img{
         margin-left: 15px;
     }
-    .brands__card-p{
+    .price__card-p{
         margin-top:0;
         font-size: 14px;
         line-height: 18px;
     }
-    .brands__footer{
+    .price__footer{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         margin-top: 80px;
         color: #7E7E82;
         opacity: 0.72;
     }
-    .brands__footer div:nth-of-type(3){
+    .price__footer div:nth-of-type(3){
         text-align: right;
+    }
+    .brands--visible {
+        display: block;
+        opacity: 1;
+        transition-duration: 1s;
     }
 }

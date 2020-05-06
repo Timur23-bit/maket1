@@ -1,4 +1,4 @@
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .cps__img {
         height: 307px;
         width: 532px;
@@ -6,7 +6,7 @@
         border-radius: 6px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
     .cps__img{
         height: 208px;
         width: 360px;

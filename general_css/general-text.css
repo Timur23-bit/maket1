@@ -1,4 +1,4 @@
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .general-text--hidden {
         overflow: hidden;
     }
@@ -13,7 +13,7 @@
         font-size: 14px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
     .general-text {
         display: flex;
         width: 312px;

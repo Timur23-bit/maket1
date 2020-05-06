@@ -1,4 +1,4 @@
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 1440px) {
     .read-next__text {
         margin-left: 16px;
     }
@@ -9,7 +9,7 @@
         line-height: 24px;
     }
 }
-@media screen and (min-width: 768px) and (max-width: 1119px){
+@media screen and (min-width: 768px) and (max-width: 1439px){
     .read-next__text {
         margin-left: 16px;
     }

@@ -1,5 +1,5 @@
 @media screen and (min-width: 320px) and (max-width: 767px) {
-    .next{
+    .price-next{
         display: flex;
         align-items: center;
         align-self: flex-end;
@@ -15,13 +15,13 @@
         position: absolute;
         top: 140px;
     }
-    .next img{
+    .price-next img{
         margin-left: 10px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1119px) {
-    .next{
+    .price-next{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -34,14 +34,14 @@
         font-weight: bold;
         color: white;
         background-color: #FF3E79;
-
+        margin-right: 16px;
     }
-    .next img{
+    .price-next img{
         margin-left: 10px;
     }
 }
 @media screen and (min-width: 1120px){
-    .next{
+    .price-next{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -55,7 +55,7 @@
         background-color: #FF3E79;
 
     }
-    .next img{
+    .price-next img{
         margin-left: 10px;
     }
 }

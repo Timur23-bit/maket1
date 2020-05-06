@@ -1,0 +1,64 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        background-color: #F8F8F8;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+    }
+
+    .overlay--opacityCallback {
+        z-index: 3;
+    }
+
+    .overlay--opacitySlide {
+        z-index: 3;
+    }
+    .overlay--opacityCallorder {
+        z-index: 3;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        background-color: #F8F8F8;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+    }
+
+    .overlay--opacityCallback {
+        z-index: 3;
+    }
+
+    .overlay--opacitySlide {
+        z-index: 3;
+    }
+    .overlay--opacityCallorder {
+        z-index: 3;
+    }
+}
+@media screen and (min-width: 1440px){
+    .overlay {
+        width: 100%;
+        height: 100vh;
+        background-color: #F8F8F8;
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: 0.9;
+    }
+    .overlay--opacityCallorder {
+        z-index: 3;
+    }
+    .overlay--opacityCallback {
+        z-index: 3;
+    }
+}

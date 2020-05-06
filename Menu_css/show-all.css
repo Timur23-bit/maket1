@@ -18,11 +18,11 @@
         transform: rotate(180deg);
     }
 
-    .--show {
+    .show-all--show {
         display: flex !important;
     }
 
-    .--hidden {
+    .show-all--hidden {
         display: none;
         transition-duration: 1s;
     }
@@ -44,10 +44,10 @@
     .hidden__img{
         transform: rotate(180deg);
     }
-    .--show{
+    .show-all--show{
         display: flex!important;
     }
-    .--hidden{
+    .show-all--hidden{
         display:none;
         transition-duration: 1s;
     }

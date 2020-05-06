@@ -21,12 +21,38 @@
     <link href="general_css/form.css" rel="stylesheet" type="text/css">
     <link href="general_css/input.css" rel="stylesheet" type="text/css">
     <link href="general_css/callorder.css" rel="stylesheet" type="text/css">
+    <link href="general_css/overlay.css" rel="stylesheet" type="text/css">
     <link href="slide_css/slide.css" type="text/css" rel="stylesheet">
     <link href="slide_css/logo.css" type="text/css" rel="stylesheet">
     <link href="slide_css/lang-menu.css" type="text/css" rel="stylesheet">
     <link href="slide_css/contact.css" type="text/css" rel="stylesheet">
     <link href="slide_css/header.css" type="text/css" rel="stylesheet">
     <link href="slide_css/footer.css" type="text/css" rel="stylesheet">
+    <link href="Menu_css/brands.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/brands-container.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/close-show-all.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/show-all.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/next.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/swiper-container.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/swiper-wrapper.css" rel="stylesheet" type="text/css">
+    <link href="Menu_css/swiper-pagination.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/brands.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/brands-container.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/close-show-all.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/show-all.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/next.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/swiper-container.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/swiper-wrapper.css" rel="stylesheet" type="text/css">
+    <link href="Price_css/swiper-pagination.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/brands.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/brands-container.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/close-show-all.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/show-all.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/next.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/swiper-container.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/swiper-wrapper.css" rel="stylesheet" type="text/css">
+    <link href="type_tech_css/swiper-pagination.css" rel="stylesheet" type="text/css">
+    <link href="swiper/package/css/swiper.min.css" rel="stylesheet" type="text/css">
     <title>Услуги и сервисы</title>
 </head>
 <body>
@@ -90,7 +116,7 @@
         <header>
             <div class="header">
                 <div class="header__left">
-                    <div class="logo">
+                    <div class="logo header__burger">
                         <img src="logo/icon.svg" alt="Меню">
                     </div>
                     <div >
@@ -163,14 +189,14 @@
                                 </div>
                             </div>
                         </a>
-                        <a class="btn__link" href="menu.html">
+                        <a class="btn__link" href="">
                             <div class="menu__button btn">
                                 <div class="menu-btn__text">
                                     Дополнительные услуги
                                 </div>
                             </div>
                         </a>
-                        <a class="btn__link" href="Price.html">
+                        <a class="btn__link" href="">
                             <div class="menu__button btn">
                                 <div class="menu-btn__text">
                                     Цены на услуги
@@ -225,6 +251,263 @@
                     <img class="cps__img" src="logo/img1.png" alt="SPC логотип">
                 </div>
             </div>
+            <div class="brands">
+                <div class="brands__header">
+                    Ремонт техники разных брендов
+                </div>
+                <div class="brands__menu">
+                    <div class="swiper-container brands__swiper-container">
+                        <div class="brands-container__fade">
+                            <img src="Bitmap%20for%20index3/fade%20copyshadow.svg" alt="Тень">
+                        </div>
+                        <div class="swiper-wrapper brands__swiper-wrapper">
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/BitmapLenovo.svg" alt = 'Логотип Lenovo'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapsamsung.svg" alt = 'Логотип Samsung'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapapple.svg" alt = 'Логотип Apple'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapbosh.svg" alt = 'Логотип BOSH'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmaphp.svg" alt = 'Логотип hp'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapacer.svg" alt = 'Логотип acer'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/BitmapViewSonic.svg" alt = 'Логотип ViewSonic'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapsony.svg" alt = 'Логотип Sony'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapsony.svg" alt = 'Логотип Sony'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/BitmapLenovo.svg" alt = 'Логотип Lenovo'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide brands__card">
+                                <img src="Bitmap%20for%20index3/Bitmapsamsung.svg" alt = 'Логотип Samsung'>
+                                <div class="next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="brands__show-all">
+                    <div class="close-show-all --hidden">
+                        <img class="hidden__img" src="logo/iconshow.svg" alt="Показать всё">
+                        <div class="show-all__text">
+                            <a class='show-all__link' href="">Скрыть</a>
+                        </div>
+                    </div>
+                    <div class="show-all">
+                        <img src="logo/iconshow.svg" alt="Показать всё">
+                        <div class="show-all__text">
+                            <a class='show-all__link' href="">Показать всё</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <div class="price__header">
+                    Ремонт техники разных брендов
+                </div>
+                <div class="price__menu">
+                    <div class="price__table">
+                        <div class="price__repair-service"> Ремонтные услуги</div>
+                        <div class="price__price"> Цена</div>
+                        <div class="price__duration"> Срок</div>
+                    </div>
+                    <div class="swiper-container price__swiper-container">
+                        <div class="price-container__fade">
+                            <img src="Bitmap%20for%20index3/fade%20copyshadow.svg" alt="Тень">
+                        </div>
+                        <div class="swiper-wrapper price__swiper-wrapper">
+                            <div class="swiper-slide price__card">
+                                <div class="price__repair-service"> <p class="price__card-p"><span class="price__title-text">Ремонтные услуги</span><br> Тестирование с выдачей заключения</p></div>
+                                <div class="price__price"> <p class="price__card-p"><span class="price__title-text">Цена</span><br> Бесплатно</p></div>
+                                <div class="price__duration"> <p class="price__card-p"><span class="price__title-text">Срок</span><br> 30 - 120 мин</p></div>
+                                <div class="price-next">
+                                    ЗАКАЗАТЬ <img src="logo/dropdownWhiteArrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide price__card">
+                                <div class="price__repair-service"> <p class="price__card-p"><span class="price__title-text">Ремонтные услуги</span><br>Диагностика</p></div>
+                                <div class="price__price"> <p class="price__card-p"><span class="price__title-text">Цена</span><br> Бесплатно</p></div>
+                                <div class="price__duration"> <p class="price__card-p"><span class="price__title-text">Срок</span><br> 30 мин</p></div>
+                                <div class="price-next">
+                                    ЗАКАЗАТЬ <img src="logo/dropdownWhiteArrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide price__card">
+                                <div class="price__repair-service"> <p class="price__card-p"><span class="price__title-text">Ремонтные услуги</span><br> Замена дисплея</p></div>
+                                <div class="price__price"> <p class="price__card-p"><span class="price__title-text">Цена</span><br> 1000 &#8381</p></div>
+                                <div class="price__duration"> <p class="price__card-p"><span class="price__title-text">Срок</span><br> 30 - 120 мин</p></div>
+
+                                <div class="price-next">
+                                    ЗАКАЗАТЬ <img src="logo/dropdownWhiteArrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide price__card">
+                                <div class="price__repair-service"> <p class="price__card-p"><span class="price__title-text">Ремонтные услуги</span><br> Замена полифонического динамика</p></div>
+                                <div class="price__price"> <p class="price__card-p"><span class="price__title-text">Цена</span><br> 1000 &#8381</p></div>
+                                <div class="price__duration"> <p class="price__card-p"><span class="price__title-text">Срок</span><br> 30 - 120 мин</p></div>
+                                <div class="price-next">
+                                    ЗАКАЗАТЬ <img src="logo/dropdownWhiteArrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide price__card">
+                                <div class="price__repair-service"> <p class="price__card-p"><span class="price__title-text">Ремонтные услуги</span><br> Тестирование с выдачей заключения</p></div>
+                                <div class="price__price"> <p class="price__card-p"><span class="price__title-text">Цена</span><br> 1000 &#8381</p></div>
+                                <div class="price__duration"> <p class="price__card-p"><span class="price__title-text">Срок</span><br> 30 - 120 мин</p></div>
+                                <div class="price-next">
+                                    ЗАКАЗАТЬ <img src="logo/dropdownWhiteArrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide price__card">
+                                <div class="price__repair-service"> <p class="price__card-p"><span class="price__title-text">Ремонтные услуги</span><br> Тестирование с выдачей заключения</p></div>
+                                <div class="price__price"> <p class="price__card-p"><span class="price__title-text">Цена</span><br> 1000 &#8381</p></div>
+                                <div class="price__duration"> <p class="price__card-p"><span class="price__title-text">Срок</span><br> 30 - 120 мин</p></div>
+                                <div class="price-next">
+                                    ЗАКАЗАТЬ <img src="logo/dropdownWhiteArrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="price__info">
+                        <p>Все цены указаны с учетом НДС. Стоимость ремонта указана за единичную услугу.
+                            Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+                    </div>
+                    <div class="price__get-com get-com">
+                        <div class="get-com__text"><b>Получить коммерческое предложение</b></div><img src="Bitmap%20for%20index3/dropdownarrow.svg" alt='Подробнее'></p>
+                    </div>
+                    <footer class="price__footer footer">
+                        <div class="footer__info">
+                            &copy 2019 CPS<br>
+                            Разработано командой Apesong
+                        </div>
+                        <div class="footer__info">
+                            Политика конфеденциальности
+                        </div>
+                        <div class="footer__info">
+                            Информация, размещенная на
+                            данной странице, не является
+                            публичной офертой
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <div class="device">
+                <div class="device__header">
+                    Ремонт различных видов техники
+                </div>
+                <div class="device__menu">
+                    <div class="swiper-container device__swiper-container">
+                        <div class="device-container__fade">
+                            <img src="Bitmap%20for%20index3/fade%20copyshadow.svg" alt="Тень">
+                        </div>
+                        <div class="swiper-wrapper device__swiper-wrapper">
+                            <div class="swiper-slide device__card">
+                                Ремонт ноутбуков
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide device__card">
+                                Ремонт планшетов
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide device__card">
+                                Ремонт ПК
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide device__card">
+                                Ремонт мониторов
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide device__card">
+                                Ремонт мониторов
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide device__card">
+                                Ремонт мониторов
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                            <div class="swiper-slide device__card">
+                                Ремонт мониторов
+                                <div class="device-next">
+                                    <img src="Bitmap%20for%20index3/dropdownarrow.svg" alt = 'Подробнее'>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="brands__show-all">
+                    <div class="close-show-all --hidden">
+                        <img class="hidden__img" src="logo/iconshow.svg" alt="Показать всё">
+                        <div class="show-all__text">
+                            <a class='show-all__link' href="">Скрыть</a>
+                        </div>
+                    </div>
+                    <div class="show-all">
+                        <img src="logo/iconshow.svg" alt="Показать всё">
+                        <div class="show-all__text">
+                            <a class='show-all__link' href="">Показать всё</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay"></div>
         </main>
     </div>
     <div class="callback">
@@ -279,8 +562,12 @@
         </form>
     </div>
 </div>
-<script src="js/slide.js"></script>
-<script src='js/back.js'></script>
-<script src='js/call.js'></script>
+
+<script src="Menu_css/showall.js"></script>
+<script src="swiper/package/js/swiper.min.js"></script>
+<script src="Menu_css/Swiper.js"></script>
+<script src="js/dist/main.js"></script>
+
+
 </body>
 </html>
