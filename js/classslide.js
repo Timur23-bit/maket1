@@ -20,7 +20,12 @@ if (window.innerWidth < 768) {
         card1[i].classList.add('swiper-slide');
     }
     console.log(card1);
-
+    for (let i = 0; i <=cardPrice.length; i++){
+        cardPrice[i].classList.add('swiper-slide');
+    }
+    for (let i = 0; i <=cardDevice.length; i++){
+        cardDevice[i].classList.add('swiper-slide');
+    }
 }
 window.addEventListener('resize', function () {
     if (window.innerWidth < 768){
@@ -34,7 +39,12 @@ window.addEventListener('resize', function () {
         for (let i = 0; i <=card1.length; i++){
             card1[i].classList.add('swiper-slide');
         }
-        console.log(card1);
+        for (let i = 0; i <=card1.length; i++){
+            card1[i].classList.add('swiper-slide');
+        }
+        for (let i = 0; i <=card1.length; i++){
+            card1[i].classList.add('swiper-slide');
+        }
 
     } else if (window.innerWidth >= 768){
         container1.classList.remove('swiper-container');
@@ -44,12 +54,8 @@ window.addEventListener('resize', function () {
         containerDevice.classList.remove('swiper-container');
         wrapperDevice.classList.remove('swiper-wrapper');
 
-        for (let i = 0; i <=card1.length; i++){
+        for (let i = 0; i <=card1.length-1; i++) {
             card1[i].classList.remove('swiper-slide');
         }
-        console.log(card1);
     }
 });
-
-console.log(card);
-

@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general_css/callback.css" beforeDir="false" afterPath="$PROJECT_DIR$/general_css/callback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general_css/overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/general_css/overlay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slide_css/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/slide_css/slide.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/classslide.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/classslide.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,8 @@
       <workItem from="1587212911666" duration="52967000" />
       <workItem from="1587500277091" duration="26644000" />
       <workItem from="1588665795898" duration="33808000" />
-      <workItem from="1588774514463" duration="875000" />
+      <workItem from="1588774514463" duration="2288000" />
+      <workItem from="1588777608680" duration="1055000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
@@ -405,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587558160243</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Блок 1.6 правки">
+      <created>1588775608390</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1588775608390</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +430,8 @@
     <MESSAGE value="Добавил макет блока 1.5" />
     <MESSAGE value="Наведение порядка" />
     <MESSAGE value="Блок 1.6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Блок 1.6" />
+    <MESSAGE value="Блок 1.6 правки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Блок 1.6 правки" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="182" key="#Inspections" timestamp="1584659888199">
@@ -442,10 +450,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="679" y="194" key="#showall.js/0.0.1920.1040@0.0.1920.1040" timestamp="1587230848000" />
-    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1587558158072">
+    <state x="1065" y="118" key="CommitChangelistDialog2" timestamp="1588775606838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587558158072" />
+    <state x="1065" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588775606838" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1586429210876">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
