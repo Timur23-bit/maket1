@@ -223,7 +223,7 @@
     }
     .price__table{
         display: grid;
-        grid-template-columns: 1fr 20% 20% 20%;
+        grid-template-columns: 1fr 20% 20% 10%;
         padding-left: 32px;
         padding-top: 31px;
         justify-items: start;
@@ -237,12 +237,12 @@
     }
     .price__card{
         display: grid;
-        grid-template-columns: 1fr 20% 20% 20%;
+        grid-template-columns: 1fr 20% 20% 10%;
         justify-items: start;
         align-items: center;
         border-bottom: 1px solid #EAEAEA;;
         padding: 16px 10px 16px 0;
-        width: 1120px;
+        width: 100%;
     }
     .price__card:nth-of-type(6){
         border-bottom: 1px solid #FFFFFF;

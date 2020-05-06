@@ -10,6 +10,7 @@
 }
 @media screen and (min-width: 1120px){
     .device__swiper-container{
+
         position: relative;
         height: auto;
     }
