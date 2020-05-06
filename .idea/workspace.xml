@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="" />
+    <list default="true" id="bb712838-95e1-43b5-a09e-452ebbc24c9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_css/callback.css" beforeDir="false" afterPath="$PROJECT_DIR$/general_css/callback.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_css/overlay.css" beforeDir="false" afterPath="$PROJECT_DIR$/general_css/overlay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slide_css/slide.css" beforeDir="false" afterPath="$PROJECT_DIR$/slide_css/slide.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +95,7 @@
       <workItem from="1587212911666" duration="52967000" />
       <workItem from="1587500277091" duration="26644000" />
       <workItem from="1588665795898" duration="33808000" />
+      <workItem from="1588774514463" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Создал структуру заголовка">
       <created>1584661348473</created>
